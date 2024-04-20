@@ -1,0 +1,15 @@
+/* Styles for the navigation bar */
+.nav-pills .nav-link {
+    padding: 20px 15px; 
+    color: white !important; 
+    background-color: #8c0410 !important; 
+    transition: color 0.3s, background-color 0.3s; 
+}
+
+.nav-pills .nav-link:hover, .nav-pills .nav-link:focus {
+    background-color: #73030c !important; 
+}
+
+.nav-pills .nav-link.active {
+    background-color: #5c0209 !important; 
+}
