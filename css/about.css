@@ -3,7 +3,8 @@
     padding: 20px 15px; 
     color: white !important; 
     background-color: #8c0410 !important; 
-    transition: color 0.3s, background-color 0.3s; 
+    border: 1px solid black; 
+    transition: color 0.3s, background-color 0.3s, border-color 0.3s; 
 }
 
 .nav-pills .nav-link:hover, .nav-pills .nav-link:focus {
@@ -13,3 +14,4 @@
 .nav-pills .nav-link.active {
     background-color: #5c0209 !important; 
 }
+
