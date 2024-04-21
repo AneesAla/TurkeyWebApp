@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6, p {
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    font-size: 25px;
+    font-size: 30px;
     padding: 250px;
     background: linear-gradient(to bottom, #5c0209, #ffffff);
   }
@@ -96,4 +96,59 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: rgba(0, 0, 0, 0.5); 
     color: white;
     text-align: center;
+}
+
+
+#overview h1 {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#overview {
+    padding-top: 200px; 
+    padding-bottom: 100px;
+}
+
+/* Flex container style */
+.overview-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    padding: 50px;
+}
+
+/* Style for the image within the flex container */
+.overview-img {
+    width: 500px; 
+    height: auto; 
+    transition: transform 0.5s ease, left 0.5s ease, top 0.5s ease; 
+    cursor: pointer;
+    position: relative; 
+    z-index: 2; 
+}
+
+
+/* Style for the paragraph within the flex container */
+.overview-text {
+    width: 70%; 
+    font-size: 23px;
+}
+
+/* Style for the backdrop */
+.backdrop {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 1); 
+    z-index: 1; 
+    transition: opacity 0.5s ease;
+}
+
+.overview-img.enlarged {
+    z-index: 101;
 }

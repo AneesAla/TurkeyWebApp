@@ -56,7 +56,7 @@
             <h1 class="display-4 text-white">
               Turkey's disastrous February 6, 2023 earthquake
             </h1>
-            <p class="text-white my-3">
+            <p class="text-white my-3" style="font-size: 22px">
               Explore how the catastrophic earthquake that claimed over 44,000
               lives pressures Turkish engineers to align their constructions
               with the UN's Sustainable Development Goal 11 for safer, resilient
@@ -244,22 +244,32 @@
         </button>
       </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
+    <br />
+    <br />
+    <br />
+    <br />
 
     <div id="overview">
-      <h1
-      style="
-        text-align: center;
-        font-weight: bold;
-        text-decoration: underline;
-        font-family: 'Roboto Condensed', sans-serif;
-      "
-    >At a Quick Glance</h1>
-    </div>
-
+      <h1>At a Quick Glance</h1>
+      <div class="overview-flex">
+          <div>
+              <img src="images/earthquakeMap.png" alt="The flag of Turkey." class="overview-img" />
+              <p style="text-align: center;">Click to Enlarge!</p>
+          </div>
+          <div class="overview-text">
+              <p>
+                  With a magnitude of 7.8 and 7.5, two earthquakes hit Turkey and parts of
+                  Syria on February 6, 2023. It killed over 50,000 people and damaged
+                  hundreds of thousands of buildings. This displaced millions of families
+                  and generated billions of dollars in damages. A full recovery is
+                  expected to take several years as many people are still living in
+                  temporary shelters or remain homeless. Efforts to rehabilitate are
+                  limited to struggles with inflation throughout the country.
+              </p>
+          </div>
+      </div>
+  </div>
+  
     <!-- Footer -->
     <footer
       id="footer"
@@ -387,5 +397,7 @@
       </div>
       <!-- Copyright -->
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/home.js"></script>
   </body>
 </html>
