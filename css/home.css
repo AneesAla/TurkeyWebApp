@@ -100,9 +100,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 #overview h1 {
-    text-align: center;
     font-weight: bold;
-    text-decoration: underline;
+    color:black;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -121,7 +120,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* Style for the image within the flex container */
 .overview-img {
-    width: 500px; 
+    width: 700px; 
     height: auto; 
     transition: transform 0.5s ease, left 0.5s ease, top 0.5s ease; 
     cursor: pointer;
@@ -133,8 +132,10 @@ h1, h2, h3, h4, h5, h6, p {
 /* Style for the paragraph within the flex container */
 .overview-text {
     width: 70%; 
-    font-size: 23px;
+    font-size: 30px;
+    color: #555;
 }
+
 
 /* Style for the backdrop */
 .backdrop {
@@ -151,4 +152,34 @@ h1, h2, h3, h4, h5, h6, p {
 
 .overview-img.enlarged {
     z-index: 101;
+}
+
+
+/* Style for accordion headers */
+.accordion-header button {
+    font-size: 24px; /* Adjusted font size for better visibility */
+    font-weight: normal; /* So it doesn't get too bold */
+    background-color: #f8f9fa; /* Light background for the button */
+    border: none; /* Removes border for a cleaner look */
+    width: 100%; /* Ensures the button fills the header */
+}
+
+/* Style for expanded accordion header to maintain visibility */
+.accordion-button:not(.collapsed) {
+    color: #ffffff; /* White text when expanded */
+    background-color: #8c0410; /* Darker blue when active */
+}
+
+/* Style for accordion content */
+.accordion-body {
+    font-size: 22px; /* Slightly larger text for readability */
+    color: #333; /* Darker text color for contrast */
+    padding: 20px; /* Adds padding inside the content box */
+    border-top: 1px solid #dee2e6; /* Adds a subtle line above the content */
+}
+
+/* Additional styling to ensure accordion separation stands out */
+.accordion-item {
+    border-bottom: 1px solid #dee2e6; /* Adds a subtle line at the bottom of each accordion item */
+    margin-bottom: 10px; /* Adds space between accordion items */
 }
