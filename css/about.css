@@ -25,7 +25,7 @@ p{
 
 /* Hero sytle */
 .hero {
-    background-image: url('../images/coupleEarthquake.jpg');
+    background-image: url('../images/aboutHero.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -75,7 +75,7 @@ p{
 
   #construction h2 {
     font-size: 50px; 
-    padding: 15px; /
+    padding: 15px; 
   }
 
   #construction p {
