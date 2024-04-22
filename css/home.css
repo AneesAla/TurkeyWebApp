@@ -1,7 +1,7 @@
-
 h1, h2, h3, h4, h5, h6, p {
     font-family: 'Roboto Condensed', sans-serif;
 }
+
 /* Styles for the navigation bar */
 .nav-pills .nav-link {
     padding: 20px 15px; 
@@ -157,29 +157,28 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* Style for accordion headers */
 .accordion-header button {
-    font-size: 24px; /* Adjusted font size for better visibility */
-    font-weight: normal; /* So it doesn't get too bold */
-    background-color: #f8f9fa; /* Light background for the button */
-    border: none; /* Removes border for a cleaner look */
-    width: 100%; /* Ensures the button fills the header */
+    font-size: 24px; 
+    font-weight: normal; 
+    background-color: #f8f9fa; 
+    border: none; 
+    width: 100%; 
 }
 
 /* Style for expanded accordion header to maintain visibility */
 .accordion-button:not(.collapsed) {
-    color: #ffffff; /* White text when expanded */
-    background-color: #8c0410; /* Darker blue when active */
+    color: #ffffff; 
+    background-color: #8c0410; 
 }
 
 /* Style for accordion content */
 .accordion-body {
-    font-size: 22px; /* Slightly larger text for readability */
-    color: #333; /* Darker text color for contrast */
-    padding: 20px; /* Adds padding inside the content box */
-    border-top: 1px solid #dee2e6; /* Adds a subtle line above the content */
+    font-size: 22px; 
+    color: #333; 
+    padding: 20px; 
+    border-top: 1px solid #dee2e6; 
 }
 
-/* Additional styling to ensure accordion separation stands out */
 .accordion-item {
-    border-bottom: 1px solid #dee2e6; /* Adds a subtle line at the bottom of each accordion item */
-    margin-bottom: 10px; /* Adds space between accordion items */
+    border-bottom: 1px solid #dee2e6; 
+    margin-bottom: 10px; 
 }
