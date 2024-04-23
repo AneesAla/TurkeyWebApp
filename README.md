@@ -11,14 +11,16 @@ This static web application is designed to showcase and spread awareness about t
 
 ## Installation
 
-1. Clone the repository to your local machine:
+1. Install Git on your local machine if not already installed. You can download Git from [https://git-scm.com/](https://git-scm.com/).
+
+2. Clone the repository to your local machine:
 git clone https://github.com/AneesAla/TurkeyWebApp
 
-2. Open the project in Visual Studio Code or your preferred code editor.
+3. Open the project in Visual Studio Code or your preferred code editor.
 
-3. Install Live Server extension in VS Code if not already installed.
+4. Install Live Server extension in VS Code if not already installed.
 
-4. Open the `home.html` file and right-click to choose "Open with Live Server" to launch the web app in your browser.
+5. Open the `home.html` file and right-click to choose "Open with Live Server" to launch the web app in your browser.
 
 ## Usage
 
