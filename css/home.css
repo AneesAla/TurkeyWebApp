@@ -1,26 +1,6 @@
 h1, h2, h3, h4, h5, h6, p {
     font-family: 'Roboto Condensed', sans-serif;
 }
-
-/* Styles for the navigation bar */
-.nav-pills .nav-link {
-    padding: 20px 15px; 
-    color: white !important; 
-    background-color: #8c0410 !important; 
-    border: 1px solid black; 
-    transition: color 0.3s, background-color 0.3s, border-color 0.3s; 
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-.nav-pills .nav-link:hover, .nav-pills .nav-link:focus {
-    background-color: #73030c !important; 
-}
-
-.nav-pills .nav-link.active {
-    background-color: #5c0209 !important; 
-}
-
-
 /* Hero sytle */
 .hero {
     background-image: url('../images/FlagFlying.jpg');
@@ -120,7 +100,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* Style for the image within the flex container */
 .overview-img {
-    width: 700px; 
+    width: 500px; 
     height: auto; 
     transition: transform 0.5s ease, left 0.5s ease, top 0.5s ease; 
     cursor: pointer;
