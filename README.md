@@ -16,7 +16,7 @@ This static web application is designed to showcase and spread awareness about t
 2. Clone the repository to your local machine:
 git clone https://github.com/AneesAla/TurkeyWebApp
 
-3. Open the project in Visual Studio Code or your preferred code editor.
+3. Open the project in Visual Studio Code.
 
 4. Install Live Server extension in VS Code if not already installed.
 
